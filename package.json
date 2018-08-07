@@ -1,0 +1,27 @@
+{
+  "name": "bookmark",
+  "version": "1.0.0",
+  "description": "一个基于express的书签收藏夹",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evinLiang/bookmark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evinLiang/bookmark/issues"
+  },
+  "homepage": "https://github.com/evinLiang/bookmark#readme",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "express": "^4.16.3",
+    "express-art-template": "^1.0.1",
+    "less-middleware": "^3.0.1"
+  }
+}

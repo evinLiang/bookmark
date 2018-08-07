@@ -1,0 +1,55 @@
+{{include './head.html'}}
+  <body>
+  	<div class="mask"></div>
+  	<div class="add-panel">
+  		<div class="panel-main">
+  			<div class="panel-title">添加收藏</div>
+  			<div class="panel-body">
+	  			<input type="text" class="input" placeholder="链接url">
+	  			<button class="btn btn-t">提交</button>
+	  			<button class="btn">取消</button>
+  			</div>
+  		</div>
+  	</div>
+    <div id="app">
+    	<header class="header">
+    		<div class="container">
+    			<a href="javascript:;" title="新增" class="add-btn res-img"><img src="/images/add.png" alt=""></a>
+    			<h1>BookMark</h1>
+    			<div class="search">
+    				<input type="text" class="input" placeholder="查找 ...">
+    				<button class="btn">搜索</button>
+    			</div>
+    		</div>
+    	</header>
+    	<div class="main">
+    		<div class="container">
+    			<div class="count">
+    				<div class="item">
+    					<p class="num">50</p>
+    					<p class="name">总数</p>
+    				</div>
+    				<div class="item">
+    					<p class="num">6</p>
+    					<p class="name">分类</p>
+    				</div>
+    			</div>
+	    		<div class="panel-list">
+	    			<div class="panel-item">
+	    				<a href="javasript:;">
+		    				<div class="avatar res-img"><img src="/images/1.jpg" alt=""></div>
+		    				<div class="content">jQuery WeUI 是专为微信公众账号开发而设计的一个简洁而强大的UI库，包含全部WeUI官方的CSS组件，并且额外提供了大量拓展组件，丰富的组件库可以极大减少前端开发时间。</div>
+	    				</a>
+	    			</div>
+	    		</div>
+    		</div>
+    	</div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+    		//console.log(1);
+    	});
+    </script>
+  </body>
+</html>
